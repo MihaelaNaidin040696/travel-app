@@ -66,6 +66,9 @@
   background: var(--whiteColor);
   border-radius: 10px;
   gap: 1rem;
+  width: 100%;
+  max-width: 600px;
+  align-self: center;
 
   label {
     display: block;
