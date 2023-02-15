@@ -17,6 +17,7 @@
     --inputColor: rgb(239, 239, 239);
     --bodyColor: rgb(240, 240, 246);
     --cardBG: rgb(225, 225, 235);
+    --cardHover: rgb(255, 255, 255);
 }
 
 a {
@@ -44,6 +45,11 @@ li {
 .flex {
     display: flex;
     align-items: center;
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .grid {
