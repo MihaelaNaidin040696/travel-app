@@ -3,6 +3,7 @@ import './home.scss';
 import video from '../../Assets/videoplayback.mp4';
 import {GrLocation} from "react-icons/gr";
 import {HiFilter} from "react-icons/hi";
+import 'aos/dist/aos.css';
 
 const Home = () => {
     return (
@@ -12,10 +13,10 @@ const Home = () => {
 
             <div className='homeContent container'>
                 <div className='textDiv'>
-                    <span className="smallText">
+                    <span data-aos='fade-up' className="smallText">
                         Our Packages
                     </span>
-                    <h1 className="homeTitle">
+                    <h1 data-aos='fade-up' className="homeTitle">
                         Search your Holiday
                     </h1>
                 </div>

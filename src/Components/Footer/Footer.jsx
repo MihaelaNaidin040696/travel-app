@@ -26,7 +26,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="footerCard flex">
+                <div data-aos="fade-right" className="footerCard flex">
                     <div className="footerIntro flex">
                         <div className="logoDiv">
                             <a href="#" className='logo flex'>
@@ -79,7 +79,6 @@ const Footer = () => {
                     </div>
 
                     <div className="footerDiv flex">
-                        <small>CEVA TEXT AICI </small>
                         <small>COPYRIGHT 2023</small>
                     </div>
                 </div>
