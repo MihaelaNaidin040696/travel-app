@@ -90,9 +90,13 @@
           .grade {
             color: var(--textColor);
             line-height: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+
+            span{
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              gap: 3px;
+            }
           }
 
           small {
@@ -102,6 +106,10 @@
             color: var(--whiteColor);
             padding: 1px 10px;
             font-size: 10px;
+            height: 13px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
           }
         }
 
